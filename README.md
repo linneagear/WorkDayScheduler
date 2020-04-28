@@ -4,7 +4,7 @@
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js IN THE BROWSER.
 
 ## User Story
 
@@ -31,3 +31,14 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+
+## Pseudo Code
+- current day and time must be linked to events
+- calendar listing 9am to 5pm
+- if past, then
+- if present, then
+- if future, then
+- when saved button is clicked, saves in local storage
+- any text: SET in local storage first and then GET in local storage last
+- put events in an object? event and time
+- first step, have an empty calendar, and grab from storage
