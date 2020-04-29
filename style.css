@@ -35,7 +35,6 @@ body {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-    padding-top: 5px;
   }
   
   .hour {
@@ -45,7 +44,6 @@ body {
     font-weight: bold;
     text-align: center;
     padding-right: 5px;
-    padding-top: 25px;
   }
   
   .past {
