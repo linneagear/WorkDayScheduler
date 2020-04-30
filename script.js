@@ -6,15 +6,17 @@ displayMoment.innerHTML = nowMoment.format('MMMM Do YYYY, h:mm a');
 // JavaScript function that wraps everything
 $(document).ready(function() {
 
-    // set item before get item
+    console.log(localStorage.getItem("text"));
+    $("#event1").text(localStorage.getItem("text"))
+    // set item before get item. Get item needs to be outside of click
     $("#save1").on("click", function () {
         var text = $("#event1").val();
         console.log(text);
         //set items in local storage.
         localStorage.setItem("text", text);
-        console.log(localStorage.getItem("text"));
     })
-    
+    // getItem not successful
+   
 
 
     // need current Time
