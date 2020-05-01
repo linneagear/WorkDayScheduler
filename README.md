@@ -14,7 +14,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Acceptance Criteria
+## Satisfying Criteria
 
 ```
 GIVEN I am using a daily planner to create a schedule
@@ -42,3 +42,4 @@ THEN the saved events persist
 - any text: SET in local storage first and then GET in local storage last
 - put events in an object? event and time
 - first step, have an empty calendar, and grab from storage
+- give an image of copmplete, finished project

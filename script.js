@@ -5,18 +5,66 @@ displayMoment.innerHTML = nowMoment.format('MMMM Do YYYY, h:mm a');
 
 // JavaScript function that wraps everything
 $(document).ready(function() {
-
-    console.log(localStorage.getItem("text"));
-    $("#event1").text(localStorage.getItem("text"))
-    // set item before get item. Get item needs to be outside of click
-    $("#save1").on("click", function () {
-        var text = $("#event1").val();
-        console.log(text);
-        //set items in local storage.
-        localStorage.setItem("text", text);
-    })
-    // getItem not successful
    
+    // set item for that specific event when clicked
+    $("#save1").on("click", function () {
+        var text1 = $("#event1").val();
+        console.log(text1);
+        //set items in local storage.
+        localStorage.setItem("text1", text1);
+    })
+    
+    $("#save2").on("click", function () {
+        var text2 = $("#event2").val();
+        localStorage.setItem("text2", text2);
+    })
+
+   $("#save3").on("click", function () {
+        var text3 = $("#event3").val();
+        localStorage.setItem("text3", text3);
+    })   
+
+   $("#save4").on("click", function () {
+        var text4 = $("#event4").val();
+        localStorage.setItem("text4", text4);
+    })
+        
+   $("#save5").on("click", function () {
+        var text5 = $("#event5").val();
+        localStorage.setItem("text5", text5);
+    })
+        
+    $("#save6").on("click", function () {
+        var text6 = $("#event6").val();
+        localStorage.setItem("text6", text6);
+    })
+
+     $("#save7").on("click", function () {
+        var text7 = $("#event7").val();
+        localStorage.setItem("text7", text7);
+    })
+       
+     $("#save8").on("click", function () {
+        var text8 = $("#event8").val();
+        localStorage.setItem("text8", text8);
+    })
+
+    $("#save9").on("click", function () {
+        var text9 = $("#event9").val();
+        localStorage.setItem("text9", text9);
+    })
+  
+        // get items back out of local storage to then display 
+        console.log(localStorage.getItem("text1"));
+        $("#event1").text(localStorage.getItem("text1"))
+        $("#event2").text(localStorage.getItem("text2"))
+        $("#event3").text(localStorage.getItem("text3")) 
+        $("#event4").text(localStorage.getItem("text4"))    
+        $("#event5").text(localStorage.getItem("text5"))   
+        $("#event6").text(localStorage.getItem("text6"))  
+        $("#event7").text(localStorage.getItem("text7")) 
+        $("#event8").text(localStorage.getItem("text8"))  
+        $("#event9").text(localStorage.getItem("text9")) 
 
 
     // need current Time
@@ -46,33 +94,6 @@ $(document).ready(function() {
             $(this).addClass("future");
         }
     })
-
-    // function hourNumberFromHourString() {
-    //       "8 AM" = 8
-    //       "9 AM" = 9
-
-        
-    //   }
-
 });
-// data attribute?
 
 
-
-function newCalendar() {
-    $(".description").empty();
-}
-
-function initiliazeCalendar() {
-    
-}
-
-
-
-function getItems() {
-    // value of ALL events, get the item from ALL hours
-    $("#event").val(localStorage.getItem("hour"));
-}
-
-
-    
