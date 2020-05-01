@@ -1,11 +1,5 @@
 # WorkDayScheduler
 
-## 05 Third-Party APIs: Work Day Scheduler
-
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js IN THE BROWSER.
-
 ## User Story
 
 ```
@@ -14,7 +8,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Satisfying Criteria
+## Satisfying the Criteria
 
 ```
 GIVEN I am using a daily planner to create a schedule
@@ -32,14 +26,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-## Pseudo Code
-- current day and time must be linked to events
-- calendar listing 9am to 5pm
-- if past, then
-- if present, then
-- if future, then
-- when saved button is clicked, saves in local storage
-- any text: SET in local storage first and then GET in local storage last
-- put events in an object? event and time
-- first step, have an empty calendar, and grab from storage
-- give an image of copmplete, finished project
+Scheduler at the current time:
+![Scheduler at current time](./Assets/Capture.JPG)
+
+
+Scheduler when set with a preset time, to show past, present, and future classes:
+![Scheduler when set with a preset time, to show past, present, and future classes](./Assets/Capture2.JPG)
