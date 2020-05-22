@@ -26,6 +26,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+[Deployed link of scheduler](https://linneagear.github.io/WorkDayScheduler/)
+
+
 Scheduler at the current time:
 ![Scheduler at current time](./Assets/Capture.JPG)
 
