@@ -1,4 +1,4 @@
-# WorkDayScheduler
+# Work Day Scheduler
 
 ## User Story
 
